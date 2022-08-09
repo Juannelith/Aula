@@ -1,0 +1,13 @@
+body{
+background: #FFDAB9;
+
+}
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: #8B4513;
+}
+#banner{
+	width: 50%;
+	height: 50px;
+}
