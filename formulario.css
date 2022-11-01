@@ -1,57 +1,46 @@
-main {
-width: 940px;
-margin: 0 auto;
+form{
+	margin: 40px 0;
 }
-
-form {
- margin: 40px  0;
+form label{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
 }
-
-form label, form p {
-  display: block; 
-  font-size: 20px
-   margin: 0 0 20px;
-    
-    }
-.input-padrao {  
-	display: block; 
-	 margin: 0 0 20px;
-	   padding: 10px 25px; 
-	    width: 50%;
+.input-padrao{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
 }
-.checkbox {
-margin: 20px 0;
-}
-form p{
+.enviar{
+	width: 40%;
+	padding: 15px 0;
+	background: skyblue;
 	color: blue;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 10px;
+	transition: 1s all;
+	cursor: pointer;
 }
-
-.pagina2
-
-main {
-width: 940px;
-margin: 0 auto;
+.enviar:hover{
+	background: blue;
+	transform; scale(1.5);
+	transform; rotate(20deg);
 }
-
-form {
- margin: 40px  0;
-}
-
-form label, form p {
-  display: block; 
-  font-size: 20px
-   margin: 0 0 20px;
-    
-    }
-.input-padrao {  
-	display: block; 
-	 margin: 0 0 20px;
-	   padding: 10px 25px; 
-	    width: 50%;
-}
-.checkbox {
-margin: 20px 0;
-}
-form p{
+.girar{
+	width: 40%;
+	padding: 15px 0;
+	background: yellow;
 	color: blue;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 10px;
+	transition: 1s all;
+	cursor: pointer;
 }
+.girar:hover{
+	background: blue;
+	transform: rotate(1000deg);
